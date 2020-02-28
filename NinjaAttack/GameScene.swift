@@ -9,7 +9,7 @@ func +(left: CGPoint, right: CGPoint) -> CGPoint {
 func -(left: CGPoint, right: CGPoint) -> CGPoint {
   return CGPoint(x: left.x - right.x, y: left.y - right.y)
 }
-
+//d
 func *(point: CGPoint, scalar: CGFloat) -> CGPoint {
   return CGPoint(x: point.x * scalar, y: point.y * scalar)
 }
